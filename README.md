@@ -1,23 +1,29 @@
 # Sample code to automate reCAPTCHA solution with Puppeteer
 
 ## Description
+
 This code example demonstrates how to automate solving a reCAPTCHA using the [Puppeteer](https://pptr.dev/) library. To captcha solving, this example uses the [2captcha.com](https://2captcha.com/?from=16653706) service. This example solves the captcha located on the page https://2captcha.com/demo/recaptcha-v2. You need to have a [2captcha.com](https://2captcha.com/?from=16653706) account for the example to work.
 
-
 ## How to start:
+
 ### Cloning
+
 `git clone https://github.com/dzmitry-duboyski/solving-recaptcha-using-puppeteer.git`
 
 ### Install dependencies
+
 `npm install`
 
 ### Set your APIKEY in `.env` file
+
 > `APIKEY` is specified in the personal account [2captcha.com](https://2captcha.com/?from=16653706). Before copying the `APIKEY`, check the selected role, the **"developer"** role must be installed in the personal account.
+
 ### Start
+
 `npm run start`
 
-
 ## How it works
+
 ```js
 import puppeteer from "puppeteer";
 const APIKEY = process.env.APIKEY;
@@ -82,10 +88,10 @@ const solver = new Solver(APIKEY);
 })();
 ```
 
-The source code is available in the file [index.js](/index.js) 
-
+The source code is available in the file [index.js](/index.js)
 
 ## Additional information:
+
 - [reCAPTCHA demo page](https://2captcha.com/demo/recaptcha-v2?from=16653706).
 - [Documentation for reCAPTCHA solution in 2captcha service](https://2captcha.com/2captcha-api#solving_recaptchav2_new?from=16653706).
 - [How to bypass reCAPTCHA V2](https://2captcha.com/p/recaptcha_v2/?from=16653706)
