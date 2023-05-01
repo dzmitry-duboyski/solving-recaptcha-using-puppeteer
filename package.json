@@ -14,7 +14,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "env-cmd node index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/dzmitry-duboyski/solving-recaptcha-using-puppeteer#readme",
   "dependencies": {
     "2captcha-ts": "^2.0.0",
+    "env-cmd": "^10.1.0",
     "puppeteer": "^19.11.1"
   }
 }

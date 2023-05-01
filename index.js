@@ -1,6 +1,7 @@
 import puppeteer from "puppeteer";
+const APIKEY = process.env.APIKEY;
 
-(async () => {
+;(async () => {
   const browser = await puppeteer.launch({
     headless: false,
   });
