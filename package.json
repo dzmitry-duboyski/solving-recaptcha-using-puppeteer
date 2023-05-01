@@ -1,0 +1,33 @@
+{
+  "name": "solving-recaptcha-using-puppeteer",
+  "version": "1.0.0",
+  "description": "Example how to solve reCAPTCHA using Puppeteer and 2captcha service.",
+  "keywords": [
+    "captcha",
+    "Geetest",
+    "bypass Geetest",
+    "solve Geetest",
+    "行为验证",
+    "2captcha",
+    "puppeteer"
+  ],
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzmitry-duboyski/solving-recaptcha-using-puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzmitry-duboyski/solving-recaptcha-using-puppeteer/issues"
+  },
+  "homepage": "https://github.com/dzmitry-duboyski/solving-recaptcha-using-puppeteer#readme",
+  "dependencies": {
+    "2captcha-ts": "^2.0.0",
+    "puppeteer": "^19.11.1"
+  }
+}
